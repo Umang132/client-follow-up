@@ -417,9 +417,7 @@
       lastPhone = contact.phone;
       currentContact = contact;
 
-      // Update form with detected info
-      setVal("wcrm-name", contact.name);
-      setVal("wcrm-phone", contact.phone);
+      // Reset form and populate with detected info
       clearForm();
       setVal("wcrm-name", contact.name);
       setVal("wcrm-phone", contact.phone);
